@@ -15,6 +15,7 @@
 		99BDB4732773BA1700DCA662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BDB4712773BA1700DCA662 /* LaunchScreen.storyboard */; };
 		99BDB47E2773BA1700DCA662 /* UnitConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BDB47D2773BA1700DCA662 /* UnitConverterTests.swift */; };
 		99BDB4892773BA1700DCA662 /* UnitConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BDB4882773BA1700DCA662 /* UnitConverterUITests.swift */; };
+		99BDB49A2773BA5C00DCA662 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BDB4992773BA5C00DCA662 /* Distance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		99BDB4842773BA1700DCA662 /* UnitConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BDB4882773BA1700DCA662 /* UnitConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterUITests.swift; sourceTree = "<group>"; };
 		99BDB48A2773BA1700DCA662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99BDB4992773BA5C00DCA662 /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				99BDB4662773BA1500DCA662 /* AppDelegate.swift */,
 				99BDB4682773BA1500DCA662 /* SceneDelegate.swift */,
-				99BDB46A2773BA1500DCA662 /* ViewController.swift */,
+				99BDB4A2277471F200DCA662 /* Controller */,
 				99BDB46C2773BA1500DCA662 /* Main.storyboard */,
 				99BDB46F2773BA1700DCA662 /* Assets.xcassets */,
 				99BDB4712773BA1700DCA662 /* LaunchScreen.storyboard */,
 				99BDB4742773BA1700DCA662 /* Info.plist */,
+				99BDB49E2773E38600DCA662 /* Model */,
 			);
 			path = UnitConverter;
 			sourceTree = "<group>";
@@ -126,6 +129,22 @@
 				99BDB48A2773BA1700DCA662 /* Info.plist */,
 			);
 			path = UnitConverterUITests;
+			sourceTree = "<group>";
+		};
+		99BDB49E2773E38600DCA662 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99BDB4992773BA5C00DCA662 /* Distance.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99BDB4A2277471F200DCA662 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99BDB46A2773BA1500DCA662 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BDB49A2773BA5C00DCA662 /* Distance.swift in Sources */,
 				99BDB46B2773BA1500DCA662 /* ViewController.swift in Sources */,
 				99BDB4672773BA1500DCA662 /* AppDelegate.swift in Sources */,
 				99BDB4692773BA1500DCA662 /* SceneDelegate.swift in Sources */,
